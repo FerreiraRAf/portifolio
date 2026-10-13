@@ -1,4 +1,4 @@
-import './App.css'
+import './Introducao.css'
 
 //Assets
 import Perfil from "./assets/Rafael.jpg"
@@ -9,7 +9,7 @@ import ImageAvatars from "./components/ImageAvatars";
 import BotaoPrincipal from './components/BotaoPrincipal';
 
 
-function App() {
+function Introducao() {
 
   return (
     <>
@@ -17,13 +17,13 @@ function App() {
         <ImageAvatars nome="Rafael Ferreira" src={Perfil} width={150} height={150} />
         <h1>Rafael da Rosa Ferreira</h1>
         <h2>Desenvolvedor Back-end</h2>
-        <div className='botoes'>
-        <BotaoPrincipal text="Curriculo" />
-        <BotaoPrincipal text="Email" />
+        <div style={{ display: 'flex', gap: '2rem' }}>
+          <BotaoPrincipal text="Curriculo" />
+          <BotaoPrincipal text="Email" />
         </div>
       </VantaBackground>
     </>
   )
 }
 
-export default App
+export default Introducao
