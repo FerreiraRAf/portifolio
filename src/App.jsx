@@ -14,7 +14,7 @@ function App() {
   return (
     <>
       <VantaBackground>
-        <ImageAvatars nome="Rafael Ferreira" src={Perfil} width={100} height={100} />
+        <ImageAvatars nome="Rafael Ferreira" src={Perfil} width={150} height={150} />
         <h1>Rafael da Rosa Ferreira</h1>
         <h2>Desenvolvedor Back-end</h2>
         <div className='botoes'>
