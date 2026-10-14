@@ -18,6 +18,7 @@ function Skills() {
       <h1>Skills</h1>
 
       <div className="skills-container">
+
         <div className="skill-card">
           <h2>Front-end</h2>
           <ul>
@@ -27,6 +28,7 @@ function Skills() {
             <li><img src={Javascript} alt="JavaScript" />JavaScript</li>
           </ul>
         </div>
+
         <div className="skill-card">
           <h2>Back-end</h2>
           <ul>
@@ -35,7 +37,9 @@ function Skills() {
             <li><img src={MySql} alt="MySQL" />MySQL</li>
           </ul>
         </div>
+
       </div>
+
     </div>
   )
 }
