@@ -5,7 +5,7 @@ import './Skills.css'
 import html from "./assets/html.png"
 import React from "./assets/React.png"
 import Css from "./assets/css-3.png"
-import Javascript from "./assets/Javascript.png"
+import Javascript from "./assets/JS.png"
 import Java from "./assets/Java.png"
 import SpringBoot from "./assets/spring-boot.png"
 import MySql from "./assets/mysql.png"
