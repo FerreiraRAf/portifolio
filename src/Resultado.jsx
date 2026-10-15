@@ -2,9 +2,13 @@
 import './Resultado.css'
 
 import { useState } from 'react';
+
+// MUI
 import Box from '@mui/material/Box';
 import BottomNavigation from '@mui/material/BottomNavigation';
-import BottomNavigationAction from '@mui/material/BottomNavigationAction';
+import BottomNavigationAction from '@mui/material/BottomNavigationAction'
+import SchoolIcon from '@mui/icons-material/School';;
+import ComputerIcon from '@mui/icons-material/Computer';
 
 //Páginas
 import Curso from './Curso.jsx'
@@ -36,8 +40,8 @@ function Resultado() {
             },
           }}
         >
-          <BottomNavigationAction label="Cursos" />
-          <BottomNavigationAction label="Trabalhos" />
+          <BottomNavigationAction label="Cursos" icon={<SchoolIcon />} />
+          <BottomNavigationAction label="Trabalhos" icon={<ComputerIcon />} />
         </BottomNavigation>
       </Box>
 
