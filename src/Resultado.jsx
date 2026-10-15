@@ -42,7 +42,7 @@ function Resultado() {
           }}
         >
           <BottomNavigationAction label="Cursos" icon={<SchoolIcon />} />
-          <BottomNavigationAction label="Trabalhos" icon={<ComputerIcon />} />
+          <BottomNavigationAction label="Projetos" icon={<ComputerIcon />} />
         </BottomNavigation>
       </Box>
 
