@@ -5,7 +5,7 @@ import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 
-export default function CardCurso({ image, title, description, href }) {
+export default function CardCurso({ image, title, description, git, site, buttonGit, buttonText }) {
     return (
         <Card
             sx={{
@@ -63,12 +63,14 @@ export default function CardCurso({ image, title, description, href }) {
                 </Typography>
             </CardContent>
 
-            <CardActions sx={{ padding: '0 1.25rem 1.25rem', justifyContent: 'center' }}>
-                <Button
-                    href={href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    sx={{
+            <CardActions sx={{ padding: '0 1.25rem 1.25rem', justifyContent: 'center', display: 'flex', gap: '1rem' }}>
+
+                {git && (
+                    <Button
+                        href={git}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        sx={{
                         padding: '0.5rem 1.25rem',
                         border: '1.5px solid #1dea53',
                         borderRadius: '8px',
@@ -86,8 +88,36 @@ export default function CardCurso({ image, title, description, href }) {
                         },
                     }}
                 >
-                    Acessar
+                    {buttonGit}
                 </Button>
+                )}
+
+                {site && (
+                    <Button
+                        href={site}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        sx={{
+                        padding: '0.5rem 1.25rem',
+                        border: '1.5px solid #1dea53',
+                        borderRadius: '8px',
+                        color: '#1dea53',
+                        fontFamily: 'var(--font-body, inherit)',
+                        fontWeight: 700,
+                        textTransform: 'none',
+                        '&:hover': {
+                            backgroundColor: '#1dea53',
+                            color: '#1f1f1f',
+                        },
+                        '&:focus-visible': {
+                            outline: '3px solid #1dea53',
+                            outlineOffset: 3,
+                        },
+                    }}
+                >
+                    {buttonText}
+                </Button>
+                )}
             </CardActions>
         </Card>
     );
