@@ -1,0 +1,22 @@
+.carrosel-swiper {
+    width: 100%;
+    max-width: 900px;
+    padding: 1rem 3rem 0;
+    --swiper-theme-color: #1dea53;
+    --swiper-navigation-size: 28px;
+    --swiper-pagination-bullet-inactive-color: #ffffff;
+    --swiper-pagination-bullet-inactive-opacity: 0.25;
+}
+
+.carrosel-swiper .swiper-slide {
+    display: flex;
+    justify-content: center;
+    height: auto;
+}
+
+.carrosel-swiper.swiper-horizontal > .swiper-pagination-bullets {
+    position: relative;
+    bottom: auto;
+    margin-top: 1.75rem;
+    padding-bottom: 1rem;
+}
