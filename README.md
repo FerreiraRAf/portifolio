@@ -2,7 +2,7 @@
 
 Portfólio pessoal desenvolvido para apresentar meus projetos, habilidades e certificações. O site foi construído com React e Vite e está publicado na Vercel.
 
-🔗 **Acesse o site:** [my-portifolio-tau-ashy.vercel.app](https://my-portifolio-tau-ashy.vercel.app)
+🔗 **Acesse o site:** [portifolio-tau-ten-47.vercel.app](https://portifolio-tau-ten-47.vercel.app/)
 
 ## Sobre mim
 
