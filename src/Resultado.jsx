@@ -12,6 +12,7 @@ import ComputerIcon from '@mui/icons-material/Computer';
 
 //Páginas
 import Curso from './Curso.jsx'
+import Trabalho from './Trabalho.jsx'
 
 function Resultado() {
   const [value, setValue] = useState(0);
@@ -51,7 +52,7 @@ function Resultado() {
         </div>
       ) : (
         <div className="resultado">
-          <h1>{conteudo[value]}</h1>
+          <Trabalho />
         </div>
       )}
     </>
