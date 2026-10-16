@@ -34,9 +34,10 @@ const ColorButton = styled(Button)(({ variant }) => ({
     },
 }));
 
-export default function BotaoPrincipal({ text, variant = 'contained', href }) {
+export default function BotaoPrincipal({ text, variant = 'contained', href, icon, ...props}) {
     return (
-        <ColorButton variant={variant} href={href}>
+        <ColorButton variant={variant} href={href}  {...props} sx={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+            {icon && <span >{icon}</span>}
             {text}
         </ColorButton>
     );
