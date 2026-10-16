@@ -16,7 +16,6 @@ import Trabalho from './Trabalho.jsx'
 
 function Resultado() {
   const [value, setValue] = useState(0);
-  const conteudo = [0 === value ? 'Cursos' : '', 1 === value ? 'Trabalhos' : ''];
 
   console.log(value);
   
@@ -41,18 +40,18 @@ function Resultado() {
             },
           }}
         >
-          <BottomNavigationAction label="Cursos" icon={<SchoolIcon />} />
           <BottomNavigationAction label="Projetos" icon={<ComputerIcon />} />
+          <BottomNavigationAction label="Cursos" icon={<SchoolIcon />} />
         </BottomNavigation>
       </Box>
 
       {value === 0 ? (
         <div className="resultado">
-          <Curso />
+          <Trabalho />
         </div>
       ) : (
         <div className="resultado">
-          <Trabalho />
+          <Curso />
         </div>
       )}
     </>
