@@ -12,7 +12,7 @@ function Curso() {
 
     return (
         <>
-        <h1>Curso</h1>
+        <h1>Certificações</h1>
         <CardCurso
             image={Certificado}
             title="Curso de ReactWeb Frontend Fundamentos HTML5 CSS3 JavaScript + 10 Projetos"
