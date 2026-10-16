@@ -9,6 +9,14 @@ import Javascript from "./assets/JS.png"
 import Java from "./assets/Java.png"
 import SpringBoot from "./assets/spring-boot.png"
 import MySql from "./assets/mysql.png"
+import Git from "./assets/git.png"
+import Rest from "./assets/rest.png"
+import Maven from "./assets/maven.png"
+import Postman from "./assets/postman.png"
+import GitHubIcon from '@mui/icons-material/GitHub';
+
+
+
 
 
 function Skills() {
@@ -35,6 +43,17 @@ function Skills() {
             <li><img src={Java} alt="Java" />Java</li>
             <li><img src={SpringBoot} alt="Spring Boot" />Spring Boot</li>
             <li><img src={MySql} alt="MySQL" />MySQL</li>
+          </ul>
+        </div>
+
+        <div className="skill-card">
+          <h2>Ferramentas</h2>
+          <ul>
+            <li><img src={Git} alt="Git" />Git</li>
+            <li><GitHubIcon sx={{ fontSize: 40 }} />GitHub</li>
+            <li><img src={Maven} alt="Maven" />Maven</li>
+            <li><img src={Postman} alt="Postman" />Postman</li>
+            <li><img src={Rest} alt="Rest" />APIs REST</li>
           </ul>
         </div>
 
