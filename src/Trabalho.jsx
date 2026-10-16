@@ -6,6 +6,7 @@ import SistemaClimatico from './assets/SistemaClimatico.png';
 import ListaCompras from './assets/ListaDeCompras.png';
 import FakeStore from './assets/fakestore.png';
 import Fontcup from './assets/fontcup.png';
+import GerenciamentoCompras from './assets/GerenciamentoCompras.png';
 
 //Components
 import Carrosel from './components/Carrosel.jsx';
@@ -39,6 +40,12 @@ function Trabalho() {
             description: "Aplicação em React com Material UI que permite digitar um texto e visualizar diferentes fontes tipográficas em tempo real.",
             git: "https://github.com/FerreiraRAf/Fontcup",
             site: "https://fontcup-de0hs6uh3-ferreiras-projects-753776d2.vercel.app/"
+        },
+        {
+            image: GerenciamentoCompras,
+            title: "Gerenciamento de Compras",
+            description: "Aplicação em React que permite gerenciar listas de compras, adicionar itens, marcar como comprados e remover itens.",
+            git: "https://github.com/FerreiraRAf/gerenciamento-de-compras",
         },
     ]
 
