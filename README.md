@@ -17,9 +17,11 @@ Estudante de Análise e Desenvolvimento de Sistemas, com 2 anos de experiência 
 
 ## Tecnologias utilizadas
 
-- [React](https://react.dev/)
+ [React 19](https://react.dev/) com React Compiler
 - [Vite](https://vite.dev/)
-- JavaScript (JSX)
+- [Material UI](https://mui.com/) e Emotion para componentes e estilos
+- [Swiper](https://swiperjs.com/) para carrosséis
+- [Three.js](https://threejs.org/) e [Vanta.js](https://www.vantajs.com/) para o fundo animado
 - [Oxlint](https://oxc.rs/docs/guide/usage/linter) para análise estática do código
 - [Vercel](https://vercel.com/) para o deploy
 
