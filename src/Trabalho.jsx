@@ -44,7 +44,7 @@ function Trabalho() {
         {
             image: GerenciamentoCompras,
             title: "Gerenciamento de Compras",
-            description: "Aplicação em React que permite gerenciar listas de compras, adicionar itens, marcar como comprados e remover itens.",
+            description: "Aplicação desktop de gerenciamento de estoque com CRUD completo de produtos, interface em JavaFX e persistência em SQLite via JDBC, seguindo o padrão DAO.",
             git: "https://github.com/FerreiraRAf/gerenciamento-de-compras",
         },
     ]
