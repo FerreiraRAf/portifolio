@@ -29,14 +29,14 @@ function Trabalho() {
         {
             image: FakeStore,
             title: "Fake Store",
-            description: "E-commerce desenvolvido com HTML, CSS e JavaScript, consumindo a FakeStore API para listagem de produtos, autenticação e gerenciamento de carrinho.",
+            description: "E-commerce desenvolvido com HTML, CSS e JavaScript, consumindo a FakeStore API para listagem de produtos, autenticação e gerenciamento de carrinho.   Nome: mor_2314 Senha: 83r5^_",
             git: "https://github.com/FerreiraRAf/Fake-Store-API",
             site: "https://fake-store-beta-puce.vercel.app/pages/login.html"
         },
         {
             image: Fontcup,
             title: "Fontcup",
-            description: "Sistema de controle climático para ambientes internos.",
+            description: "Aplicação em React com Material UI que permite digitar um texto e visualizar diferentes fontes tipográficas em tempo real.",
             git: "https://github.com/FerreiraRAf/Fontcup",
             site: "https://fontcup-de0hs6uh3-ferreiras-projects-753776d2.vercel.app/"
         },
@@ -44,7 +44,7 @@ function Trabalho() {
 
     return (
         <>
-        <h1>Trabalho</h1>
+        <h1>Projetos</h1>
 
         <Carrosel itens={trabalhos} />
         </>
