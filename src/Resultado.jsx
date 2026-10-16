@@ -7,7 +7,7 @@ import { useState } from 'react';
 import Box from '@mui/material/Box';
 import BottomNavigation from '@mui/material/BottomNavigation';
 import BottomNavigationAction from '@mui/material/BottomNavigationAction'
-import SchoolIcon from '@mui/icons-material/School';;
+import SchoolIcon from '@mui/icons-material/School';
 import ComputerIcon from '@mui/icons-material/Computer';
 
 //Páginas
@@ -16,9 +16,6 @@ import Trabalho from './Trabalho.jsx'
 
 function Resultado() {
   const [value, setValue] = useState(0);
-
-  console.log(value);
-  
   
   return (
     <>
