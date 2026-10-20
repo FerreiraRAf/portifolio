@@ -63,7 +63,7 @@ export default function CardCurso({ image, title, description, git, site, button
                 </Typography>
             </CardContent>
 
-            <CardActions sx={{ padding: '0 1.25rem 1.25rem', justifyContent: 'center', display: 'flex', gap: '1rem' }}>
+            <CardActions sx={{ padding: '0 1.25rem 1.25rem', justifyContent: 'center', display: 'flex', flexWrap: 'wrap', gap: '0.75rem' }}>
 
                 {git && (
                     <Button

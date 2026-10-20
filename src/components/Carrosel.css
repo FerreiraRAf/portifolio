@@ -20,3 +20,14 @@
     margin-top: 1.75rem;
     padding-bottom: 1rem;
 }
+
+@media (max-width: 800px) {
+    .carrosel-swiper {
+        padding: 1rem 0.5rem;
+    }
+
+    .carrosel-swiper .swiper-button-prev,
+    .carrosel-swiper .swiper-button-next {
+        display: none;
+    }
+}

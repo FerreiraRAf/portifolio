@@ -22,9 +22,9 @@ function Carrosel({ itens }) {
             spaceBetween={24}
             slidesPerView={1}
             breakpoints={{
-                700: { slidesPerView: 3 },
+                700: { slidesPerView: 2 },
                 1024: { slidesPerView: 3 },
-            }}
+            }} 
             className="carrosel-swiper"
         >
             {itens.map((item, index) => (
