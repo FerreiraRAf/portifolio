@@ -10,6 +10,14 @@ const ColorButton = styled(Button)(({ variant }) => ({
     textTransform: 'none',
     boxShadow: 'none',
     transition: 'background-color 0.15s, box-shadow 0.15s',
+
+    // Telefone: botão se adapta à coluna da grade
+    '@media (max-width: 600px)': {
+        minWidth: 0,
+        padding: '0.65rem 0.75rem',
+        fontSize: '0.9rem',
+    },
+
     ...(variant === 'contained'
         ? {
             backgroundColor: '#1f1f1f',
@@ -36,7 +44,7 @@ const ColorButton = styled(Button)(({ variant }) => ({
 
 export default function BotaoPrincipal({ text, variant = 'contained', href, icon, ...props}) {
     return (
-        <ColorButton variant={variant} href={href}  {...props} sx={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+        <ColorButton variant={variant} href={href}  {...props} sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '0.5rem' }}>
             {icon && <span >{icon}</span>}
             {text}
         </ColorButton>

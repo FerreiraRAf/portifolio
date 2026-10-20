@@ -5,6 +5,8 @@
    Para mudar o visual do portfólio inteiro, altere só aqui.
    ========================================================== */
 :root {
+  min-height: 100vh;
+  min-height: 100svh;
   --bg: #1F1F1F;
   --surface: #ffffff;
   --ink: #fefefe;
@@ -52,6 +54,8 @@ html {
 
 body {
   min-height: 100vh;
+  min-height: 100svh;
+  overflow-x: clip; 
   background: var(--bg);
   color: var(--ink);
   font-family: var(--font-body);

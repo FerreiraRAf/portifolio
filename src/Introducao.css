@@ -1,0 +1,38 @@
+.introducao-nome {
+    font-size: clamp(1.6rem, 7vw, 3rem);
+    text-align: center;
+    margin: 1rem 0 0.25rem;
+    padding: 0 1rem;
+}
+
+.introducao-cargo {
+    font-size: clamp(1rem, 4.5vw, 1.5rem);
+    font-weight: 400;
+    text-align: center;
+    margin: 0 0 1.5rem;
+    padding: 0 1rem;
+}
+
+.introducao-botoes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem 2rem;
+}
+
+/* Telefone: botões em grade 2x2 */
+@media (max-width: 600px) {
+    .introducao-botoes {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0.75rem;
+        width: 100%;
+        max-width: 360px;
+        padding: 0 1rem;
+        box-sizing: border-box;
+    }
+
+    .introducao-botoes > * {
+        width: 100%;
+    }
+}

@@ -25,9 +25,9 @@ const gmailLink = `https://mail.google.com/mail/?view=cm&fs=1&to=${email}&su=${a
     <>
       <VantaBackground>
         <ImageAvatars nome="Rafael Ferreira" src={Perfil} width={150} height={150} />
-        <h1>Rafael da Rosa Ferreira</h1>
-        <h2>Desenvolvedor Back-end Java</h2>
-        <div style={{ display: 'flex', gap: '1rem 2rem', flexWrap: 'wrap', justifyContent: 'center' }}>
+        <h1 className="introducao-nome">Rafael da Rosa Ferreira</h1>
+        <h2 className="introducao-cargo">Desenvolvedor Back-end Java</h2>
+        <div className="introducao-botoes">
           <BotaoPrincipal
             text="Currículo"
             icon={<LibraryBooksIcon />}
