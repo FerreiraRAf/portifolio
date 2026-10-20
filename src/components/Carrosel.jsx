@@ -22,8 +22,8 @@ function Carrosel({ itens }) {
             spaceBetween={24}
             slidesPerView={1}
             breakpoints={{
-                700: { slidesPerView: 2 },
-                1024: { slidesPerView: 2 },
+                700: { slidesPerView: 3 },
+                1024: { slidesPerView: 3 },
             }}
             className="carrosel-swiper"
         >
