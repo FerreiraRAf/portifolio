@@ -15,7 +15,7 @@
     flex-wrap: nowrap;
     justify-content: center;
     align-items: stretch;
-    gap: 6rem;
+    gap: 3rem;
     width: 100%;
     max-width: 800px;
 }
