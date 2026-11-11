@@ -26,7 +26,8 @@ const gmailLink = `https://mail.google.com/mail/?view=cm&fs=1&to=${email}&su=${a
       <VantaBackground>
         <ImageAvatars nome="Rafael Ferreira" src={Perfil} width={150} height={150} />
         <h1 className="introducao-nome">Rafael da Rosa Ferreira</h1>
-        <h2 className="introducao-cargo">Desenvolvedor Back-end Java</h2>
+        <h2 className="introducao-cargo">Desenvolvedor Full Stack Júnior | React · Java · Spring Boot</h2>
+        <p className="introducao-descricao">4 anos com React e APIs REST. Hoje aprofundando em Java e Spring Boot. Busco vaga júnior remota ou em Porto Alegre.</p>
         <div className="introducao-botoes">
           <BotaoPrincipal
             text="Currículo"
