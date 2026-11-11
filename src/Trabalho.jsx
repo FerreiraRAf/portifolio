@@ -23,14 +23,14 @@ function Trabalho() {
         },
         {
             image: ListaDeProduto,
-            title: "Lista de Produto",
-            description: "API REST em Spring Boot com um front-end em HTML, CSS e JavaScript puro para gerenciar produtos de um estoque. O projeto implementa um CRUD completo: listar, consultar, cadastrar, atualizar e remover produtos.",
+            title: "API de Produtos (Spring Boot)",
+            description: "API REST com Spring Boot e Spring Data JPA: CRUD de produtos, persistência em SQLite e testes de endpoints no Postman.",
             git: "https://github.com/FerreiraRAf/meu-projeto-springboot/tree/master",
         },
         {
             image: FakeStore,
             title: "Fake Store",
-            description: "E-commerce desenvolvido com HTML, CSS e JavaScript, consumindo a FakeStore API para listagem de produtos, autenticação e gerenciamento de carrinho.   Nome: mor_2314 Senha: 83r5^_",
+            description: "E-commerce desenvolvido com HTML, CSS e JavaScript, consumindo a FakeStore API para listagem de produtos, autenticação e gerenciamento de carrinho.  Login de teste: Nome: mor_2314 Senha: 83r5^_",
             git: "https://github.com/FerreiraRAf/Fake-Store-API",
             site: "https://fake-store-beta-puce.vercel.app/pages/login.html"
         },
