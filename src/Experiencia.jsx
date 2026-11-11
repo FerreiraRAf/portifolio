@@ -19,7 +19,7 @@ function Experiencia() {
         {
             cargo: "Auxiliar de Suporte Técnico em TI",
             empresa: "Conab",
-            periodo: "2026 – atualmente",
+            periodo: "2026 – Atualmente",
             atividades: [
                 "Atendimento e resolução de problemas de hardware e software dos usuários.",
                 "Instalação e configuração de softwares, computadores e impressoras.",
