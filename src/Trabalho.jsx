@@ -3,7 +3,6 @@ import './Trabalho.css';
 
 //Assets
 import SistemaClimatico from './assets/SistemaClimatico.png';
-import ListaCompras from './assets/ListaDeCompras.png';
 import FakeStore from './assets/fakestore.png';
 import Fontcup from './assets/fontcup.png';
 import ListaDeProduto from './assets/ListaDeProduto.png';
